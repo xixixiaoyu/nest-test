@@ -1,0 +1,19 @@
+{
+  "name": "nacos-node-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "register": "node register.js",
+    "register:enhanced": "node register-enhanced.js",
+    "test:connection": "node test-connection.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "nacos": "^2.6.0"
+  }
+}
